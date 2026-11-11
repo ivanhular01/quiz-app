@@ -1,0 +1,22 @@
+:root {
+  font-family: var(--body);
+  color: var(--ink);
+  background: var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --paper: #f3f0e7;
+  --ink: #1a2b26;
+  --muted: #6c756d;
+  --coral: #cc5945;
+  --green: #37705a;
+  --line: #dedbd1;
+  --body: 'DM Sans', 'Segoe UI', sans-serif;
+  --display: 'Playfair Display', Georgia, serif;
+  --mono: 'DM Mono', Consolas, monospace;
+}
+* { box-sizing: border-box; }
+body { min-width: 320px; min-height: 100vh; margin: 0; background-image: radial-gradient(rgba(26,43,38,.045) .65px, transparent .65px); background-size: 6px 6px; }
+button { font: inherit; }
+::selection { color: var(--paper); background: var(--coral); }
